@@ -1,16 +1,17 @@
 {
   "basic_info": {
-    "description_header": "Hello",
-    "description": "👋 I'm Jimmy Beugnies. I work with the latest front-end frameworks such as React. I hold a state-approved web and mobile web developer qualification.",
+    "description_header": "Bonjour",
+    "description": "👋 Je suis Jimmy Beugnies. Je travaille avec le dernier framework front-end tels que React. Je possède un titre Développeur web et web mobile reconnu par l'état. ",
     "section_name": {
-      "about": "About Me",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "about": "À propos de moi",
+      "projects": "Projets",
+      "skills": "Compétences",
+      "experience": "Expérience"
     }
   },
   "projects": [
     {
+      "id": "1",
       "title": "G.E.N.E.T 21",
       "startDate": "2020",
       "description": "Website representing an association for individuals with Down syndrome.",
@@ -27,12 +28,13 @@
       ]
     },
     {
+      "id": "2",
       "title": "OhMyFood",
       "startDate": "2023",
       "description": "It's a young startup aiming to establish itself in the restaurant market. Already present in New York, it now seeks to make its mark in Paris.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/ohmyfood/p1.jpg",
+        "images/portfolio/ohmyfood/p1.jpg"
       ],
       "url": "https://github.com/Zrtehhz/Project-4",
       "technologies": [
@@ -43,6 +45,7 @@
       ]
     },
     {
+      "id": "3",
       "title": "Booki",
       "startDate": "2023",
       "description": "L'entreprise souhaite développer un site web qui permette aux utilisateurs de trouver un logement et des activités dans la ville de leur choix.",
@@ -58,39 +61,5 @@
         }
       ]
     }
-  ],
-  "experience": [
-    {
-      "company": "Afpa Web Developer / Mobile Web Developer",
-      "title": "Training - Front-End/Back-End Developer",
-      "years": "January 2022 - June 2022",
-      "mainTech": [
-        "Php"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Bootstrap",
-        "PHP",
-        "MySQL",
-        "PHPMyAdmin"
-      ]
-    },
-    {
-      "company": "OpenClassRooms",
-      "title": "Training - Web Integrator ReactJS",
-      "years": "March 2023 - January 2024",
-      "mainTech": [
-        "Javascript"
-      ],
-      "technologies": [
-        "ReactJs",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Swagger"
-      ]
-    }
   ]
-}
+}  

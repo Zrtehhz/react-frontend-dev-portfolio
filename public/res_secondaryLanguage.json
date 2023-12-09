@@ -11,9 +11,10 @@
   },
   "projects": [
     {
+      "id": "1",
       "title": "G.E.N.E.T 21",
       "startDate": "2020",
-      "description": "Site web représentant une association pour handicapée atteint de la trisomie 21.",
+      "description": "Website representing an association for individuals with Down syndrome.",
       "images": [
         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.jpg"
@@ -27,12 +28,13 @@
       ]
     },
     {
+      "id": "2",
       "title": "OhMyFood",
       "startDate": "2023",
-      "description": "Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+      "description": "It's a young startup aiming to establish itself in the restaurant market. Already present in New York, it now seeks to make its mark in Paris.",
       "images": [
-        "images/portfolio/ohmyfood/p1.jpg",
-        "images/portfolio/ohmyfood/p2.jpg"
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
       ],
       "url": "https://github.com/Zrtehhz/Project-4",
       "technologies": [
@@ -43,9 +45,10 @@
       ]
     },
     {
+      "id": "3",
       "title": "Booki",
       "startDate": "2023",
-      "description": "Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. ",
+      "description": "L'entreprise souhaite développer un site web qui permette aux utilisateurs de trouver un logement et des activités dans la ville de leur choix.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
@@ -58,39 +61,5 @@
         }
       ]
     }
-  ],
-  "experience": [
-    {
-      "company": "Afpa Développeur web / web mobile",
-      "title": "Formation - Développeur Front-End/Back-end",
-      "years": "Janvier 2022 - Juin 2022",
-      "mainTech": [
-        "Php"
-      ],
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Bootstrap",
-        "PHP",
-        "MySQL",
-        "PHPMyAdmin"
-      ]
-    },
-    {
-      "company": "OpenClassRooms",
-      "title": "Formation - Intégrateur web ReactJS",
-      "years": " mars 2023 - Janvier 2024",
-      "mainTech": [
-        "Javascript"
-      ],
-      "technologies": [
-        "ReactJs",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Swagger"
-      ]
-    }
   ]
-}
+}  
