@@ -1,25 +1,48 @@
 {
     "basic_info": {
-      "name": "Jimmy Beugnies",
-      "titles": [ "Front-end Junior Developer", "Back-end Junior Developer", "Java  Junior Developer" ],
+      "name": "Sabin Chacko",
+      "titles": [ "Full-Stack Developer", "Senior Backend Developer", "PHP Web Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/Zrtehhz",
+          "url": "https://github.com/sabinchacko03",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "Stack Overflow",
+          "url": "https://stackoverflow.com/users/3085642/sabin-chacko",
+          "class": "fab fa-stack-overflow"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sabin-chacko",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myprofile-min.jpg"
-
-      
+      "image": "myProfile.jpg"
     },
     "skills": {
       "icons": [
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "80"
+        },
+        {
+          "name": "Laravel",
+          "class": "devicon-laravel-plain",
+          "level": "90"
+        },
+        {
+          "name": "Tailwind CSS",
+          "class": "devicon-tailwindcss-plain",
+          "level": "90"
+        },
+        {
+          "name": "React JS",
+          "class": "devicon-react-original",
+          "level": "75"
+        },
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
@@ -29,25 +52,30 @@
           "name": "CSS 3",
           "class": "devicon-css3-plain",
           "level": "95"
-        },
+        },        
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
-        },
+        },        
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "85"
         },
         {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "35"
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "95"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "GitHub Actions",
+          "class": "devicon-github-original",
           "level": "60"
         }
       ]

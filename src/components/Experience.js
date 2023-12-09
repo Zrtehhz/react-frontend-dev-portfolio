@@ -46,13 +46,13 @@ class Experience extends Component {
 
             <h3
               className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", color: "#689ea8" }}
             >
               {work.title}
             </h3>
             <h4
               className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
+              style={{ textAlign: "left", color: "#d28a19" }}
             >
               {work.company}
             </h4>

@@ -1,17 +1,20 @@
 {
     "basic_info": {
-      "name": "Jimmy Beugnies",
-      "titles": [ "Front-end Junior Developer", "Back-end Junior Developer", "Java  Junior Developer" ],
+      "name": "Sabin Chacko",
+      "titles": [ "Full-Stack Developer", "Senior Backend Developer", "PHP Web Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com/Zrtehhz",
+          "url": "https://github.com",
           "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com",
+          "class": "fab fa-instagram"
         }
       ],
-      "image": "myprofile-min.jpg"
-
-      
+      "image": "myProfile.jpg"
     },
     "skills": {
       "icons": [
@@ -26,9 +29,24 @@
           "level": "95"
         },
         {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
+          "level": "90"
+        },
+        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "70"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original",
+          "level": "75"
         },
         {
           "name": "Bootstrap",
@@ -36,9 +54,9 @@
           "level": "85"
         },
         {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "35"
+          "name": "C#",
+          "class": "devicon-csharp-plain",
+          "level": "65"
         },
         {
           "name": "MySql",

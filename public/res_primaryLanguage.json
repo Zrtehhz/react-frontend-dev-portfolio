@@ -1,9 +1,9 @@
 {
   "basic_info": {
-    "description_header": "Hello",
-    "description": "👋 I'm Jimmy Beugnies. I work with the latest front-end frameworks such as React. I hold a state-approved web and mobile web developer qualification.",
+    "description_header": "Hi",
+    "description": "👋 I'm Sabin Chacko. A Web Developer, ever since I started working with PHP Codeigniter in 2013. Later started using Laravel and worked on some major projects written in Laravel. Mostly worked as a Backend Developer handling REST and SOAP APIs, most of the times, with MySQL Databases. Knows ReactJS and Python. Thank you 💜",
     "section_name": {
-      "about": "About Me",
+      "about": "About me",
       "projects": "Projects",
       "skills": "Skills",
       "experience": "Experience"
@@ -11,85 +11,223 @@
   },
   "projects": [
     {
-      "title": "G.E.N.E.T 21",
-      "startDate": "2020",
-      "description": "Website representing an association for individuals with Down syndrome.",
-      "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
-      ],
-      "url": "https://genet21.fr",
-      "technologies": [
-        {
-          "class": "devicon-php-plain",
-          "name": "Php"
-        }
-      ]
-    },
-    {
-      "title": "OhMyFood",
-      "startDate": "2023",
-      "description": "It's a young startup aiming to establish itself in the restaurant market. Already present in New York, it now seeks to make its mark in Paris.",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com/Zrtehhz/Project-4",
-      "technologies": [
-        {
-          "class": "devicon-css-original",
-          "name": "css"
-        }
-      ]
-    },
-    {
-      "title": "Booki",
-      "startDate": "2023",
-      "description": "L'entreprise souhaite développer un site web qui permette aux utilisateurs de trouver un logement et des activités dans la ville de leur choix.",
+      "title": "RunRun Ecommerce",
+      "startDate": "2021",
+      "description": "An end to end Ecommerce solution. Based in Abu Dhabi. Provides multiple vendors and vendor login options, provided in both Web and Mobile phone platforms. Integrated to the Dispatcher module to manage fleets.",
       "images": [
         "images/portfolio/animal-shelter/p1.jpg",
         "images/portfolio/animal-shelter/p2.jpg"
       ],
-      "url": "https://github.com/Zrtehhz/Project-4",
+      "url": "https://runrun.ae",
       "technologies": [
         {
-          "class": "devicon-css-original",
-          "name": "css"
+          "class": "devicon-laravel-plain",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React Native"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "RunRun Dispatcher",
+      "startDate": "2021",
+      "description": "An online dashboard to manage routes and riders. Enhanced my googlemaps api, the dispatcher module shows a dashboard to analyse all the riders and order in realtime.",
+      "images": [
+        "images/portfolio/photography/p1.jpg"
+      ],
+      "url": "https://courier.deliveryzone.ae",
+      "technologies": [
+        {
+          "class": "devicon-laravel-original",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React Native"
+        }
+      ]
+    },
+    {
+      "title": "Referral Portal",
+      "startDate": "2021",
+      "description": "An online portal to refer a friend to the PROZone Business Hub, which will earn us a reward.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg"
+      ],
+      "url": "https://referral.prozone.ae",
+      "technologies": [
+        {
+          "class": "devicon-laravel-plain",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React JS"
+        }
+      ]
+    },
+    {
+      "title": "Ducon ODL",
+      "startDate": "2019",
+      "description": "An Ecommerce platform for Outdoor Living Products, with portfolios of multiple outdoor living model.",
+      "images": [
+        "images/portfolio/ducon/p1.jpg",
+        "images/portfolio/ducon/p2.jpg"
+      ],
+      "url": "https://www.duconodl.com/",
+      "technologies": [
+        {
+          "class": "devicon-yii-plain",
+          "name": "Yii2"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        }
+      ]
+    },
+    {
+      "title": "Ducon Green",
+      "startDate": "2020",
+      "description": "A portfolio website for showcasing all the concrete recycling operations.",
+      "images": [
+        "images/portfolio/ducongreen/p1.jpg"
+      ],
+      "url": "https://www.ducongreen.com/",
+      "technologies": [
+        {
+          "class": "devicon-html-5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "800Blocks",
+      "startDate": "2019",
+      "description": "An Ecommerce solution for buying concrete blocks online and downloading quotations online.",
+      "images": [
+        "images/portfolio/blocks/p1.jpg"
+      ],
+      "url": "https://www.800blocks.ae/",
+      "technologies": [
+        {
+          "class": "devicon-concrete5-plain",
+          "name": "Concrete5"
+        },
+        {
+          "class": "devicon-jquery-plain",
+          "name": "JQuery"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "Afpa Web Developer / Mobile Web Developer",
-      "title": "Training - Front-End/Back-End Developer",
-      "years": "January 2022 - June 2022",
+      "company": "Ittihad International Investment",
+      "title": "Software Engineer",
+      "years": "2/2023 - present",
       "mainTech": [
-        "Php"
+        "Laravel",
+        "Tailwind",
+        "Microsoft SQL Server"
       ],
       "technologies": [
-        "HTML",
-        "CSS",
+        "AlpineJS",
+        "Tailwind CSS",
         "JavaScript",
-        "Bootstrap",
-        "PHP",
         "MySQL",
-        "PHPMyAdmin"
+        "Single Sign-On"
       ]
     },
     {
-      "company": "OpenClassRooms",
-      "title": "Training - Web Integrator ReactJS",
-      "years": "March 2023 - January 2024",
+      "company": "Delivery Zone for Delivery",
+      "title": "Software Developer",
+      "years": "7/2021 - 1/2023",
       "mainTech": [
-        "Javascript"
+        "Laravel",
+        "React"
       ],
       "technologies": [
-        "ReactJs",
-        "HTML",
-        "CSS",
+        "REST API",
+        "SOAP API",
+        "Google APIs",
         "JavaScript",
-        "Swagger"
+        "Bootstrap",
+        "MySQL",
+        "JQuery",
+        "Google Firebase",
+        "AWS",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "company": "Ducon Industries FZCO",
+      "title": "Web Developer",
+      "years": "04/2019 - 07/2021",
+      "mainTech": [
+        "Laravel",
+        "Concrete5",
+        "Yii2"
+      ],
+      "technologies": [
+        "PHP",
+        "JQuery",
+        "JavaScript",
+        "MySQL",
+        "REST API",
+        "React JS"
+      ]
+    },
+    {
+      "company": "Infinite Open Source Solutions",
+      "title": "Team Leader",
+      "years": "10/2017 - 02/2019",
+      "mainTech": [
+        "Codeigniter",
+        "Laravel"
+      ],
+      "technologies": [
+        "PHP",
+        "JQuery",
+        "JavaScript",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Braddock Infotech",
+      "title": "Software Programmer",
+      "years": "09/2015 - 10/2017",
+      "mainTech": [
+        "PHP",
+        "Wordpress",
+        "Python"
+      ],
+      "technologies": [
+        "JQuery",
+        "MySQL"
+      ]
+    },
+    {
+      "company": "Infinite Open Source Solutions",
+      "title": "Web Developer",
+      "years": "11/2013 - 08/2015",
+      "mainTech": [
+        "Codeigniter"
+      ],
+      "technologies": [
+        "JQuery",
+        "MySQL",
+        "Bootstrap"
       ]
     }
   ]

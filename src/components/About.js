@@ -1,17 +1,13 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
+import laravelIcon from "@iconify/icons-logos/laravel";
 import reactIcon from "@iconify/icons-logos/react";
-import javascriptIcon from "@iconify/icons-logos/javascript";
-import javaIcon from "@iconify/icons-logos/java";
-import htmlIcon from "@iconify/icons-logos/html-5";
-import cssIcon from "@iconify/icons-logos/css-3";
 import phpIcon from "@iconify/icons-logos/php";
-import mysqlIcon from "@iconify/icons-logos/mysql";
-import Myprofile from '../../src/myprofile-min.jpg';
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
+      var profilepic = "images/" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -31,41 +27,21 @@ class About extends Component {
                 <span style={{ cursor: "auto" }}>
                   <img
                     height="250px"
-                    display="flex"
-                    margin= "auto"
-                    src={Myprofile}
+                    src={profilepic}
                     alt="Avatar placeholder"
                   />
-                <Icon
-                  icon={reactIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={javascriptIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={javaIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={htmlIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={cssIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={phpIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                <Icon
-                  icon={mysqlIcon} 
-                  style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                />
-                
-
+                  <Icon
+                    icon={phpIcon}
+                    style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={laravelIcon}
+                    style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={reactIcon}
+                    style={{ fontSize: "350%", margin: "9% 5% 0 5%" }}
+                  />
                 </span>
               </div>
             </div>
