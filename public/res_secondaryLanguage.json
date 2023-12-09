@@ -18,7 +18,7 @@
         "images/portfolio/photography/p1.jpg",
         "images/portfolio/photography/p2.jpg"
       ],
-      "url": "genet21.fr",
+      "url": "https://genet21.fr",
       "technologies": [
         {
           "class": "devicon-php-plain",

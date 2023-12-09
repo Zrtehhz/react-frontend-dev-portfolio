@@ -15,10 +15,10 @@
       "startDate": "2020",
       "description": "Website representing an association for individuals with Down syndrome.",
       "images": [
-        "./images/portfolio/photography/p1.jpg",
-        "./images/portfolio/photography/p2.jpg"
+        "images/portfolio/photography/p1.jpg",
+        "images/portfolio/photography/p2.jpg"
       ],
-      "url": "genet21.fr",
+      "url": "https://genet21.fr",
       "technologies": [
         {
           "class": "devicon-php-plain",
