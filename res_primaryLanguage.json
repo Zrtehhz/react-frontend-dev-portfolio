@@ -1,118 +1,96 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hello",
+    "description": "👋 I'm Jimmy Beugnies. I work with the latest front-end frameworks such as React. I hold a state-approved web and mobile web developer qualification.",
+    "section_name": {
+      "about": "About Me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "G.E.N.E.T 21",
+      "startDate": "2020",
+      "description": "Website representing an association for individuals with Down syndrome.",
+      "images": [
+        "./images/portfolio/photography/p1.jpg",
+        "./images/portfolio/photography/p2.jpg"
+      ],
+      "url": "genet21.fr",
+      "technologies": [
+        {
+          "class": "devicon-php-plain",
+          "name": "Php"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "OhMyFood",
+      "startDate": "2023",
+      "description": "It's a young startup aiming to establish itself in the restaurant market. Already present in New York, it now seeks to make its mark in Paris.",
+      "images": [
+        "images/portfolio/ohmyfood/p1.jpg",
+        "images/portfolio/ohmyfood/p1.jpg"
+      ],
+      "url": "https://github.com/Zrtehhz/Project-4",
+      "technologies": [
+        {
+          "class": "devicon-css-original",
+          "name": "css"
+        }
+      ]
+    },
+    {
+      "title": "Booki",
+      "startDate": "2023",
+      "description": "L'entreprise souhaite développer un site web qui permette aux utilisateurs de trouver un logement et des activités dans la ville de leur choix.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "https://github.com/Zrtehhz/Project-4",
+      "technologies": [
+        {
+          "class": "devicon-css-original",
+          "name": "css"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Afpa Web Developer / Mobile Web Developer",
+      "title": "Training - Front-End/Back-End Developer",
+      "years": "January 2022 - June 2022",
+      "mainTech": [
+        "Php"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "PHP",
+        "MySQL",
+        "PHPMyAdmin"
+      ]
+    },
+    {
+      "company": "OpenClassRooms",
+      "title": "Training - Web Integrator ReactJS",
+      "years": "March 2023 - January 2024",
+      "mainTech": [
+        "Javascript"
+      ],
+      "technologies": [
+        "ReactJs",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Swagger"
+      ]
+    }
+  ]
+}
